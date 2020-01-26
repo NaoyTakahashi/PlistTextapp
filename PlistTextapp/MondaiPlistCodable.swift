@@ -10,11 +10,7 @@ import Foundation
 
 struct mondai:Codable {
     //let Root: Dictionary<String, Any>
-    let Root: test
-}
-
-struct test {
-    let 01: questionNumber
+    let Root: questionNumber
 }
 
 struct questionNumber:Codable {

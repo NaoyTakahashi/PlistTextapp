@@ -12,11 +12,11 @@ class ViewController: UIViewController {
 
     var prop: mondai?
     func hoge() {
+        //mondai.plist
         if let url = Bundle.main.path(forResource: "mondai", ofType: "plist") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: url))
                 self.prop = try PropertyListDecoder().decode(mondai.self, from: data)
-                print("prop: \(prop)")
             } catch let e {
                 print("Reason: \(e)")
             }
