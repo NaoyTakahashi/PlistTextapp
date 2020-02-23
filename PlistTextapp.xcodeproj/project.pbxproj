@@ -53,7 +53,7 @@
 		D87D8EC623DD53E8002868C6 /* PlistTextappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlistTextappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87D8ECA23DD53E8002868C6 /* PlistTextappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistTextappUITests.swift; sourceTree = "<group>"; };
 		D87D8ECC23DD53E8002868C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D87D8ED823DD546E002868C6 /* mondai.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = mondai.plist; path = ../../../../Downloads/mondai.plist; sourceTree = "<group>"; };
+		D87D8ED823DD546E002868C6 /* mondai.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mondai.plist; sourceTree = "<group>"; };
 		D87D8EDC23DD5893002868C6 /* MondaiPlistCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondaiPlistCodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

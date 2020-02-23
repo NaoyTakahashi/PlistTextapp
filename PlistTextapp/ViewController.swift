@@ -21,6 +21,7 @@ class ViewController: UIViewController {
                 print("Reason: \(e)")
             }
         }
+        print(prop?.Root[0].Correctanswer)
     }
     
     @IBOutlet weak var label: UILabel!
@@ -29,6 +30,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         hoge()
         //print(prop)
+        label.text = prop?.Root[0].Questionsentence
     }
     
     

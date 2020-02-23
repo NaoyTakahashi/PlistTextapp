@@ -8,13 +8,13 @@
 
 import Foundation
 
-struct mondai:Codable {
-    //let Root: Dictionary<String, Any>
-    let Root: questionNumber
+struct mondai: Codable {
+    let Root: Array<number>
 }
 
-struct questionNumber:Codable {
-    let Questionsentence: Dictionary<String,String>
-    let Choices: Dictionary<String,[String]>
-    let Correctanswer:  Dictionary<String,Int>
+struct number: Codable {
+    let Questionsentence: String
+    let Choices: Array<String>
+    let Correctanswer: Int
 }
+
